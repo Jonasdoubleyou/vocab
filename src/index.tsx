@@ -212,7 +212,7 @@ const StyledApp = withStyles(componentStyle)(
 
             const { from, to, name } = this.state.newList;
             return (
-                <Grid direction="column">
+                <Grid container direction="column">
                     <Typography variant="headline">Neue Liste erstellen</Typography>
                     <TextField
                         onChange={this.update("name")}
@@ -231,7 +231,7 @@ const StyledApp = withStyles(componentStyle)(
                     />
                     <Button onClick={createList} variant="raised">
                         ERSTELLEN
-          </Button>
+                    </Button>
                 </Grid>
             );
         }
