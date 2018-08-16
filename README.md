@@ -3,4 +3,4 @@ A small flashcard application written in React and Typescript for learning Vocab
 
 Written by @polynomdivision and @jonasdoubleyou as part of a CS course.
 
-[Try it](https://oxvl7560oy.codesandbox.io/)
+[Try it](https://polynomdivision.github.com/vocab/)
