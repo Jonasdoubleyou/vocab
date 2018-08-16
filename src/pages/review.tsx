@@ -59,6 +59,12 @@ export default class ReviewPage extends React.Component<
         // we will consider the answer as partially correct.
         // If the distance is 0, then the answer is correct. Otherwise it's wrong.
         if (distance === 0) {
+            // Reset the input
+            this.setState({
+                inputValue: ""
+            });
+
+            // Next card
             this.showPopover("Correct");
             this.props.nextCard();
         } else if (distance < back.length / 4 && distance !== 0) {
